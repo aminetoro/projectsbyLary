@@ -114,6 +114,7 @@ body {
   -o-border-radius: 6px;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
   box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
   color: white;
   transition: transform 0.2s ease;
@@ -131,11 +132,25 @@ body {
   color: var(--main-Yellow);
   background-color: white;
 }
+.signup button:focus {
+  outline: 0;
+  border: 0;
+}
 .why p {
   font-size: 0.9rem;
   opacity: 0.5;
   line-height: 1.6;
-  width: 65%;
+  width: 80%;
+}
+@media screen and (max-width: 1000px) {
+  .plan_box {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .plan_box {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   .plan_box {
