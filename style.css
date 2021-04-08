@@ -154,10 +154,6 @@ article {
   }
 }
 @media screen and (max-width: 600px) {
-  article {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
   .signupwhy {
     flex-direction: column;
   }
@@ -167,5 +163,11 @@ article {
   }
   .why p {
     font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  article {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
