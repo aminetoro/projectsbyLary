@@ -165,7 +165,7 @@ article {
     font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   article {
     padding-left: 15px;
     padding-right: 15px;
