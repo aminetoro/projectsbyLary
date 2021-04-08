@@ -154,9 +154,6 @@ article {
   }
 }
 @media screen and (max-width: 600px) {
-  .plan_box {
-    width: 90%;
-  }
   .signupwhy {
     flex-direction: column;
   }
