@@ -41,6 +41,7 @@ nav img {
 .primary {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .primary .imagetemp {
   width: 55%;
