@@ -106,8 +106,8 @@ nav img {
 .buttons a {
   cursor: pointer;
   border: 1px solid white;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: inline-block;
   margin-left: 10px;
@@ -123,11 +123,16 @@ nav img {
   color: var(--soft-magenta);
 }
 .buttons i {
-  line-height: 30px;
+  border-radius: 50%;
+  line-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.05em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 @media screen and (max-width: 968px) {
   .primary {
